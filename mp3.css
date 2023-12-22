@@ -6,7 +6,7 @@
       display: grid;
       grid-template-rows: 40px 250px;
       font-family: "neodgm";
-      width: 500px;
+      width: 400px;
     }
     .mp3__title {
       font-family: "neodgm";
@@ -25,14 +25,13 @@
     .details {
       display: grid;
       grid-template-rows: 60px 40px;
-      margin-left: 10px;
-      width: 500px
+      width: 400px
     }
     .track-name {
-      font-size: 30px;
+      font-size: 28px;
       padding-bottom: 10px;
       padding-left: 15px;
-      padding-top: 20px;
+      padding-top: 12px;
     }
     .track-artist {
       font-size: 20px;
@@ -69,15 +68,15 @@
     
     /* Define the slider width so that it scales properly */
     .slider_container {
-      width: 5000px;
-      max-width: 500px;
+      width: 400px;
+      max-width: 400px;
       display: grid;
-      grid-template-columns: 75px 350px 75px;
+      grid-template-columns: 50px 300px 50px;
       place-items: center;
     }
     .slider_container_2 {
-      width: 5000px;
-      max-width: 500px;
+      width: 400px;
+      max-width: 400px;
       display: grid;
       grid-template-columns: 1fr 220px 1fr;
       place-items: center;
@@ -122,16 +121,19 @@
     }
     
     .seek_slider {
-      width: 350px;
+      width: 250px;
     }
     
     .volume_slider {
-      width: 200px;
+      width: 170px;
     }
     
-    .current-time,
+    .current-time {
+      margin-left: 20px;
+    }
+
     .total-duration {
-      padding: 10px;
+      margin-right: 20px;
     }
     
     i.fa-volume-down,
