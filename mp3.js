@@ -36,6 +36,73 @@ let track_list = [
   artist: "Hallo",
   path: "audio/月流Getsuryu.mp3"
 },
+
+{
+  name: "Aruarian Dance",
+  artist: "Nujabes",
+  path: "audio/Aruarian Dance.mp3"
+},
+{
+  name: "Tsurugi No Mai",
+  artist: "Nujabes",
+  path: "audio/Tsurugi No Mai.mp3"
+},
+
+{
+  name: "soul nights",
+  artist: "music shower",
+  path: "audio/soul nights.mp3"
+},
+{
+  name: "2:23 AM",
+  artist: "しゃろう",
+  path: "audio/223AM.mp3"
+},
+{
+  name: "HOME",
+  artist: "有形ランペイジ",
+  path: "audio/HOME.mp3"
+},
+{
+  name: "Flower Dance",
+  artist: "DJ Okawari",
+  path: "audio/Flower Dance.mp3"
+},
+{
+  name: "LOVE L.A",
+  artist: "Ruben Wilmer Band",
+  path: "audio/Love L.A.mp3"
+},
+{
+  name: "Ji-Eun's Sunset",
+  artist: "City Girl",
+  path: "audio/Ji-Eun's Sunset.mp3"
+},
+{
+  name: "Days Like These",
+  artist: "LAKEY INSPIRED",
+  path: "audio/Days Like These.mp3"
+},
+{
+  name: "take me there",
+  artist: "potsu",
+  path: "audio/take me there.mp3"
+},
+{
+  name: "letting go",
+  artist: "potsu",
+  path: "audio/letting go.mp3"
+},
+{
+  name: "just friends",
+  artist: "potsu",
+  path: "audio/just friends.mp3"
+},
+{
+  name: "food court",
+  artist: "potsu",
+  path: "audio/food court.mp3"
+},
 {
   name: "A Neon Glow Lights the Way",
   artist: "Garoad",
@@ -67,34 +134,9 @@ let track_list = [
   path: "audio/Moon.mp3"
 },
 {
-  name: "Aruarian Dance",
-  artist: "Nujabes",
-  path: "audio/Aruarian Dance.mp3"
-},
-{
-  name: "Tsurugi No Mai",
-  artist: "Nujabes",
-  path: "audio/Tsurugi No Mai.mp3"
-},
-{
   name: "Resonance",
   artist: "HOME",
   path: "audio/Resonance.mp3"
-},
-{
-  name: "Online Shopping",
-  artist: "Dan Mason ダン·メイソン",
-  path: "audio/Online Shopping.mp3"
-},
-{
-  name: "soul nights",
-  artist: "music shower",
-  path: "audio/soul nights.mp3"
-},
-{
-  name: "2:23 AM",
-  artist: "しゃろう",
-  path: "audio/223AM.mp3"
 },
 ];
 

@@ -68,9 +68,9 @@ div::before {
 </style>
 
 <script>
-const $c = document.querySelector("canvas");
-const ctx = $c.getContext(`2d`);
-
+const canvas = document.querySelector("canvas");
+// 그리기 객체를 취득해야 함.
+const ctx = canvas.getContext(`2d`);
 
 const product = [
   "분식", "한식", "일식", "고기", "짱꺠", "편의점", "굶어", "이탈리안", "패스트푸드"];
@@ -78,7 +78,7 @@ const product = [
 const colors = ["#dc0936", "#e6471d", "#f7a416", "#efe61f ", "#60b236", "#209b6c", "#169ed8", "#3f297e", "#87207b", "#be107f", "#e7167b"];
 
 const newMake = () => {
-    const [cw, ch] = [$c.width / 2, $c.height / 2];
+    const [cw, ch] = [canvas.width / 2, canvas.height / 2];
     const arc = Math.PI / (product.length / 2);
   
     for (let i = 0; i < product.length; i++) {
@@ -115,8 +115,8 @@ const newMake = () => {
 }
 
 const rotate = () => {
-  $c.style.transform = `initial`;
-  $c.style.transition = `initial`;
+  canvas.style.transform = `initial`;
+  canvas.style.transition = `initial`;
   
   setTimeout(() => {
     
@@ -125,8 +125,8 @@ const rotate = () => {
     const arc = 360 / product.length;
     const rotate = (ran * arc) + 3600 + (arc * 3) - (arc/4);
     
-    $c.style.transform = `rotate(-${rotate}deg)`;
-    $c.style.transition = `2s`;
+    canvas.style.transform = `rotate(-${rotate}deg)`;
+    canvas.style.transition = `2s`;
     
     setTimeout(() => alert(`"${product[ran]}"`), 2000);
   }, 1);
