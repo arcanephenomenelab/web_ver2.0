@@ -2,18 +2,21 @@
     font-family: 'neodgm';
     src: url(neodgm.woff) format('woff');
     }
+
     .mp3__container {
       display: grid;
       grid-template-rows: 40px 250px;
       font-family: "neodgm";
       width: 400px;
     }
+
     .mp3__title {
       font-family: "neodgm";
       font-size: 20px;
       padding-left: 10px;
       padding-top: 10px;
     }
+
     .player {
       display: grid;
       grid-template-rows: 100px repeat(3, 50px);
@@ -22,23 +25,27 @@
       margin: 0;
       place-items: center;
     }
+
     .details {
       display: grid;
       grid-template-rows: 60px 40px;
       width: 400px
     }
+
     .track-name {
       font-size: 28px;
       padding-bottom: 10px;
       padding-left: 15px;
       padding-top: 12px;
     }
+
     .track-artist {
       font-size: 20px;
       color: white;
       padding-left: 15px;
       padding-top: 10px;
     }
+
     .buttons {
       display: grid;
       width: 300px;
@@ -46,6 +53,7 @@
       grid-template-columns: repeat(3, 1fr);
       place-items: center;
     }
+
     .playpause-track,
     .prev-track,
     .next-track {
@@ -74,6 +82,7 @@
       grid-template-columns: 50px 300px 50px;
       place-items: center;
     }
+
     .slider_container_2 {
       width: 400px;
       max-width: 400px;
@@ -81,14 +90,17 @@
       grid-template-columns: 1fr 220px 1fr;
       place-items: center;
     }
+
     .image_1 {
       margin-left: auto;
       margin-right: 0;
     }
+
     .image_2 {
       margin-left: 0;
       margin-right: auto;
     }
+    
     /* Modify the appearance of the slider */
     .seek_slider, .volume_slider {
       -webkit-appearance: none;

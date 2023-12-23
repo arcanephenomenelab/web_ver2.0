@@ -85,7 +85,17 @@ let track_list = [
   name: "Online Shopping",
   artist: "Dan Mason ダン·メイソン",
   path: "audio/Online Shopping.mp3"
-}
+},
+{
+  name: "soul nights",
+  artist: "music shower",
+  path: "audio/soul nights.mp3"
+},
+{
+  name: "2:23 AM",
+  artist: "しゃろう",
+  path: "audio/223AM.mp3"
+},
 ];
 
 function loadTrack(track_index) {
