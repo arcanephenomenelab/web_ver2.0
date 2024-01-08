@@ -8,6 +8,20 @@ ul li {
     list-style: none;
 }
 
+#time {
+    color: goldenrod;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#timer {
+    font-size: larger;
+}
+
+#calender {
+    font-size: medium;
+}
+
 .community:hover #community_content {
     color: goldenrod;
 }
@@ -101,6 +115,5 @@ a:visited {
 
 .info {
     position: absolute;
-    bottom: 0px;
-    
+    bottom: 0px; 
 }
