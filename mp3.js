@@ -36,7 +36,11 @@ let track_list = [
   artist: "Hallo",
   path: "audio/月流Getsuryu.mp3"
 },
-
+{
+  name: "You're Gonna Be Ok",
+  artist: "Iwamizu",
+  path: "audio/You're Gonna Be Ok.mp3"
+},
 {
   name: "Aruarian Dance",
   artist: "Nujabes",
