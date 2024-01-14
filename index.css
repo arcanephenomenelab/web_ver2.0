@@ -19,7 +19,7 @@ ul li {
 }
 
 #calender {
-    font-size: medium;
+    font-size: small;
 }
 
 .community:hover #community_content {
@@ -27,7 +27,7 @@ ul li {
 }
 
 #archive {
-    font-size: 17px;
+    font-size: small;
     display: none;
     z-index: 1;
 }
@@ -45,7 +45,7 @@ ul li {
 }
 
 #playground {
-    font-size: 17px;
+    font-size: small;
     display: none;
     z-index: 1;
 }
@@ -86,7 +86,7 @@ a:visited {
     background-position: center;
     background-size: cover;
     color: aliceblue;
-    font-size: larger;
+    font-size: 17px;
 }
 .nobullet {
     list-style-type: none;
@@ -103,6 +103,7 @@ a:visited {
     color: aliceblue;
     min-height: 2000px;
     position: relative;
+    font-size: small;
 }
 #head {
     grid-area: head;
@@ -112,7 +113,6 @@ a:visited {
     padding: 5%;
     font-family: neodgm;
 }
-
 .info {
     position: absolute;
     bottom: 0px; 
