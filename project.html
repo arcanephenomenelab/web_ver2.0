@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마도연구부 2.0</title>
+  <link rel="icon" href="images/makisekurisu.png">
+</head>
+
+<body>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mp3.css">
+
+  <div id="grid">
+    
+    <!-- 메뉴 한번더 클릭하면 닫히게 만들어야됨 _ 모바일용 -->
+    <div id="menubar">
+      
+      <div id="time">
+        <div id="timer" onload="startclock()">
+          Display time
+        </div>
+        <div id="calender">
+          Display date
+        </div>
+      </div>
+    
+      <ul class="nobullet">
+        
+        <div class="home">
+          <li ><a href="index.html" id="home_content">홈으로 돌아가기</a></li>
+        </div>
+
+        <div class="community">
+          <li id="community_content">커뮤니티(추가예정)</li>
+        </div>
+    
+        <div class="archive">
+          <li id="archive_content">아카이브</li>
+          <ul id="archive">
+            <li><a href="project.html" id="project_content">PROJECT (※※※)</a></li>
+          </ul>
+        </div>
+    
+        <div class="login">
+          <li ><a id="login_content" href="https://port-0-signup-login-demo-7xwyjq992llj0r38gh.sel4.cloudtype.app/" target="_blank">로그인 / 회원가입</a></li>
+        </div>
+        
+        <div class="playground">
+          <li id="playground_content">Playground_βeta</li>
+          <ul id="playground">
+            <li><a href="random.html">랜덤 점심 선택기</a></li>
+            <li>미니게임 부스(개발중..)</li>
+          </ul>
+        </div>
+    
+        <div>
+          <li id="ch_content">@ 채널</li>
+        </div>
+          
+      </ul>
+    </div>
+
+    <div id="textbox">
+
+      <div id="head">
+        <h1>프로젝트 ヾ(｡ꏿ﹏ꏿ)ﾉﾞ</h1>
+      </div>
+    
+      <div id="article">
+
+        <table border="1" width="500px">
+          <tr align="center">
+            <td colspan="2">Project 1-1 : 출석체크-봇</td>
+          </tr>
+          <tr align="center">
+            <td>구상 : 23/5/12</td>
+            <td>비고 : NOT FOR SALE</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <img src="images/project1-1.png" width="400px">
+              <p style="margin-top: 0%;">
+                학교에 가지않고!, 친구에게 대리출석을 부탁하지 않아도 출석을
+                인정받을 수 있는 Sensational한 아이템...! 
+                이런것들이 교내에 여러 마리 돌아다니게 되면 상당한 문제가
+                생기므로 판매는 하지 않습니다.<br>
+                조사에 따르면 건강한 성인 남성의 평균 시속은 17-20km/h로, 로봇의
+                최대속력을 25km/h 정도로 설계하여 교수님과의 달리기 시합에서 이길 수 있도록 하였습니다! 안심하십시오! <br>
+                ※주의※ 마도연구부는 해당 로봇이 교수님에게 붙잡힌 이후의
+                일에 대해서는 아무런 책임이 없음을 밝힙니다.
+              </p>
+            </td>
+          </tr>
+        </table>
+      
+      </div>
+
+      <div class="info">
+        (주X)마도연구부<br>
+        서울 동작구 노들로2길 7<br>
+        ☎ 010-8681-0930<br>
+        copyrightⓒ2023 All rights NOT reserved by arcanephenomenelab<br>
+        released on 2023.5.21
+      </div>
+    </div>
+  
+  </div>
+  
+  <script src="timer.js"></script>
+  <script src="mp3.js"></script>
+
+</body>
+</html>

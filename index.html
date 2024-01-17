@@ -14,7 +14,7 @@
 
   <div id="grid">
     
-    <!-- 메뉴바 모듈화하기 -->
+    <!-- 메뉴 한번더 클릭하면 닫히게 만들어야됨 -->
     <div id="menubar">
       
       <div id="time">
@@ -25,22 +25,20 @@
           Display date
         </div>
       </div>
-
+    
       <ul class="nobullet">
-
+    
         <div class="community">
           <li id="community_content">커뮤니티(추가예정)</li>
         </div>
-
+    
         <div class="archive">
           <li id="archive_content">아카이브</li>
           <ul id="archive">
-            <li><a href="python_library.html" target="_blank">Python Library</a></li>
-            <li><a href="js_reference.html" target="_blank">JS / npm</a></li>
-            <li>PROJECT (※※※)</li>
+            <li><a href="project.html" id="project_content">PROJECT (※※※)</a></li>
           </ul>
         </div>
-
+    
         <div class="login">
           <li ><a id="login_content" href="https://port-0-signup-login-demo-7xwyjq992llj0r38gh.sel4.cloudtype.app/" target="_blank">로그인 / 회원가입</a></li>
         </div>
@@ -52,26 +50,22 @@
             <li>미니게임 부스(개발중..)</li>
           </ul>
         </div>
-
+    
         <div>
           <li id="ch_content">@ 채널</li>
         </div>
           
       </ul>
     </div>
-    
-    <div id="textbox">
-      <div id="head">
-      <h1>마도연구부 2.0 /(´◓Д◔`)/</h1>
-      </div>
-      <p>
-        <h4>UPDATE!! 홈페이지 메인 주크박스 기능 추가 (2023.5.31)</h4>
-        <h4>UPDATE!! Node.js 로그인 회원가입 기능 구현 (2023.6.17)</h4>
-        <h4>WARNING!! 현재 로그인 데이터베이스에 알수없는 에러발생...해결중..(서비스 유료화 추정)</h4>
-        <h4>COMMING SOON!! 채팅 서버 베타테스트 __ @채널</h4>
-        <h4>※ 모바일로 보면 화면 깨질 수 있읍니다...(절대로 귀찮아서 안고치는거 아님)</h4>
-      </p>
 
+    <div id="textbox">
+
+      <div id="head">
+        <h1>마도연구부 2.0 ＼(´◓Д◔`)/</h1>
+      </div>
+
+      <br>
+      
       <div class="mp3__container">
         <div class="mp3__title">
           Instrumental Collection vol.1 ♬♬
@@ -108,26 +102,37 @@
           </div>
         </div>
       </div>
-      
+
       <br>
-      <h2>@@ NEWS @@</h2>
-      <ul>
-        <li>H_Lawliet 백수 탈출.. 드디어 방구석에서 기어나와...<12.19></li>
-        <li>김현성 곧 입대...ICBM 만들려고 간다는 소문이 있다</li>
-        <li>휘선 27 재개장 유력...주인장 억장 와르르멘션..............</li>
-        <li>유툽 채널 링크(음악 플레이리스트 업로드용) : 
-          <a href="https://www.youtube.com/channel/UC8vvb3V69_709k5fsSu9pow" target="_blank" style="color: goldenrod;">바로가기</a>
-        </li>
-        <li>마도연구부 이전 : 상도 --> 노량진</li>
-        <li>
-          <img src="images/222.gif" width="40px">
-          <img src="images/222.gif" width="40px">
-          <img src="images/222.gif" width="40px">
-          <img src="images/222.gif" width="40px">
-          <img src="images/222.gif" width="40px">
-          <img src="images/222.gif" width="40px">
-        </li>
-      </ul>
+      
+      <p>
+        <h4>UPDATE!! 홈페이지 메인 주크박스 기능 추가 (2023.5.31)</h4>
+        <h4>UPDATE!! Node.js 로그인 회원가입 기능 구현 (2023.6.17)</h4>
+        <h4>WARNING!! 현재 로그인 데이터베이스에 알수없는 에러발생...해결중..(서비스 유료화 추정)</h4>
+        <h4>COMMING SOON!! 채팅 서버 베타테스트 __ @채널</h4>
+        <h4>※ 모바일로 보면 화면 깨질 수 있읍니다...(절대로 귀찮아서 안고치는거 아님)</h4>
+      </p>
+
+      <div class="news">
+        <h2>@@ NEWS @@</h2>
+          <ul>
+            <li>H_Lawliet 백수 탈출.. 드디어 방구석에서 기어나와...<12.19></li>
+            <li>김현성 곧 입대...ICBM 만들려고 간다는 소문이 있다</li>
+            <li>휘선 27 재개장 유력...주인장 억장 와르르멘션..............</li>
+            <li>유툽 채널 링크(음악 플레이리스트 업로드용) : 
+              <a href="https://www.youtube.com/channel/UC8vvb3V69_709k5fsSu9pow" target="_blank" style="color: goldenrod;">바로가기</a>
+            </li>
+            <li>마도연구부 이전 : 상도 --> 노량진</li>
+            <li>
+              <img src="images/222.gif" width="40px">
+              <img src="images/222.gif" width="40px">
+              <img src="images/222.gif" width="40px">
+              <img src="images/222.gif" width="40px">
+              <img src="images/222.gif" width="40px">
+              <img src="images/222.gif" width="40px">
+            </li>
+          </ul>
+      </div>
 
       <div class="info">
         (주X)마도연구부<br>
@@ -136,12 +141,12 @@
         copyrightⓒ2023 All rights NOT reserved by arcanephenomenelab<br>
         released on 2023.5.21
       </div>
-    
     </div>
-  
+    
   </div>
   
   <script src="timer.js"></script>
   <script src="mp3.js"></script>
+
 </body>
 </html>

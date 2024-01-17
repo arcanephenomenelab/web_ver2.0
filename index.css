@@ -58,6 +58,10 @@ ul li {
     color: goldenrod;
 }
 
+.archive:hover #archive_content {
+    color: goldenrod;
+}
+
 body {
     line-height: 30px;
     margin: 0;
